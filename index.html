@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kumpulan Game - Premium</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="leaderboard.js"></script>
+</head>
+<body>
+  <!-- Background Container -->
+  <div class="background-container">
+    <div class="sky">
+      <div class="stars" id="stars"></div>
+      <div class="particles" id="particles"></div>
+    </div>
+    <div class="clouds" id="clouds"></div>
+    <div class="skyline"></div>
+    <div class="ground"></div>
+  </div>
+
+  <!-- Header -->
+  <header>
+    <h1>🎮 KUMPULAN GAME</h1>
+    <div class="header-right">
+      <div class="time-display" id="time-display">--:--</div>
+      <button id="lb-btn" aria-label="Leaderboard" title="Leaderboard Global">🏆</button>
+      <button id="user-btn" aria-label="Username" title="Ganti Username">👤</button>
+      <button id="theme-toggle" aria-label="Toggle theme">🌙</button>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <div class="game-card" data-desc="Game puzzle angka 2048, gabungkan kotak untuk mencapai skor tertinggi.">
+      <div class="game-card-inner">
+        <div class="card-front">
+          <a href="2048/2048.html"><img src="2048/2048.jpg" alt="Screenshot 2048"><h2>2048</h2></a>
+        </div>
+        <div class="card-back">
+          <div class="card-back-content">Game puzzle angka 2048</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="game-card" data-desc="Game Breakout klasik, hancurkan semua balok dengan bola.">
+      <div class="game-card-inner">
+        <div class="card-front">
+          <a href="breakout/breakout.html"><img src="breakout/breakout.jpg" alt="Screenshot Breakout"><h2>Breakout</h2></a>
+        </div>
+        <div class="card-back">
+          <div class="card-back-content">Hancurkan semua balok</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="game-card" data-desc="Game catur, mainkan strategi melawan lawan.">
+      <div class="game-card-inner">
+        <div class="card-front">
+          <a href="chess/chess.html"><img src="chess/chess.jpg" alt="Screenshot Chess"><h2>Chess</h2></a>
+        </div>
+        <div class="card-back">
+          <div class="card-back-content">Game strategi catur</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="game-card" data-desc="Game Maze, temukan jalan keluar dari labirin.">
+      <div class="game-card-inner">
+        <div class="card-front">
+          <a href="maze/maze.html"><img src="maze/maze.jpg" alt="Screenshot Maze"><h2>Maze</h2></a>
+        </div>
+        <div class="card-back">
+          <div class="card-back-content">Keluar dari labirin</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="game-card" data-desc="Game Snake klasik, kendalikan ular dan makan makanan untuk tumbuh.">
+      <div class="game-card-inner">
+        <div class="card-front">
+          <a href="snake/snake.html"><img src="snake/snake.jpg" alt="Screenshot Snake"><h2>Snake</h2></a>
+        </div>
+        <div class="card-back">
+          <div class="card-back-content">Kendalikan ular</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="game-card" data-desc="Game Space Shooter, tembak musuh di luar angkasa.">
+      <div class="game-card-inner">
+        <div class="card-front">
+          <a href="space/space.html"><img src="space/space.jpg" alt="Screenshot Space Shooter"><h2>Space Shooter</h2></a>
+        </div>
+        <div class="card-back">
+          <div class="card-back-content">Tembak musuh</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="game-card" data-desc="Game Tank battle, hancurkan tank musuh dan bertahan hidup.">
+      <div class="game-card-inner">
+        <div class="card-front">
+          <a href="tank/Tank.html"><img src="tank/tank.jpg" alt="Screenshot Tank"><h2>Tank</h2></a>
+        </div>
+        <div class="card-back">
+          <div class="card-back-content">Tank battle</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="game-card" data-desc="Game Tetris, susun balok jatuh agar tidak penuh.">
+      <div class="game-card-inner">
+        <div class="card-front">
+          <a href="tetris/tetris.html"><img src="tetris/tetris.jpg" alt="Screenshot Tetris"><h2>Tetris</h2></a>
+        </div>
+        <div class="card-back">
+          <div class="card-back-content">Tetris klasik</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="game-card" data-desc="Game Typing, latih kecepatan mengetik dengan kata-kata acak.">
+      <div class="game-card-inner">
+        <div class="card-front">
+          <a href="typing/typing.html"><img src="typing/typing.jpg" alt="Screenshot Typing"><h2>Typing</h2></a>
+        </div>
+        <div class="card-back">
+          <div class="card-back-content">Latih kecepatan mengetik</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="game-card" data-desc="Game Whack-a-Mole, pukul musuh yang muncul secepat mungkin.">
+      <div class="game-card-inner">
+        <div class="card-front">
+          <a href="whack/whack.html"><img src="whack/whack.jpg" alt="Screenshot Whack-a-Mole"><h2>Whack-a-Mole</h2></a>
+        </div>
+        <div class="card-back">
+          <div class="card-back-content">Pukul musuh</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="game-card" data-desc="Game Sepak-bola, bermain bola dengan tim mana yang paling banyak mencetak gol atau poin.">
+      <div class="game-card-inner">
+        <div class="card-front">
+          <a href="Sepak-bola/Sepak-bola.html"><img src="Sepak-bola/Sepak-bola.jpg" alt="Screenshot Sepak-bola"><h2>Sepak-bola</h2></a>
+        </div>
+        <div class="card-back">
+          <div class="card-back-content">Sepak-bola</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="game-card" data-desc="Game pacman, video arkade klasik yang ikonik.">
+      <div class="game-card-inner">
+        <div class="card-front">
+          <a href="pacman/index.html"><img src="pacman/pacman.jpg" alt="Screenshot pacman"><h2>Pacman</h2></a>
+        </div>
+        <div class="card-back">
+          <div class="card-back-content">Arcade klasik</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="game-card" data-desc="Game Balance Tower, bangun menara setinggi mungkin tanpa roboh!">
+      <div class="game-card-inner">
+        <div class="card-front">
+          <a href="balance tower/bt.html"><img src="balance tower/bt.jpg" alt="Screenshot balance tower"><h2>Balance Tower</h2></a>
+        </div>
+        <div class="card-back">
+          <div class="card-back-content">Bangun menara setinggi mungkin</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="game-card" data-desc="Game Tic Tac Toe, mainkan permainan klasik ini dengan temanmu!">
+      <div class="game-card-inner">
+        <div class="card-front">
+          <a href="tictactoe/t3.html"><img src="tictactoe/t3.jpg" alt="Screenshot tictactoe"><h2>Tic Tac Toe</h2></a>
+        </div>
+        <div class="card-back">
+          <div class="card-back-content">Tic Tac Toe</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="game-card" data-desc="Game balap mobil, pilih mobil favoritmu dan menangkan balapan!">
+      <div class="game-card-inner">
+        <div class="card-front">
+          <a href="car/car.html"><img src="car/car.jpg" alt="Screenshot car"><h2>Car Racing</h2></a>
+        </div>
+        <div class="card-back">
+          <div class="card-back-content">Balapan mobil</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="game-card" data-desc="Game cocktail, buat mixologi yang lezat!">
+      <div class="game-card-inner">
+        <div class="card-front">
+          <a href="cocktail/hana.html"><img src="cocktail/cocktail.jpg" alt="Screenshot cocktail"><h2>Cocktail</h2></a>
+        </div>
+        <div class="card-back">
+          <div class="card-back-content">Buat minuman lezat</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="game-card" data-desc="Game dinosaurus seperti yang ada di google chrome, lompat dan hindari rintangan untuk bertahan hidup!">
+      <div class="game-card-inner">
+        <div class="card-front">
+          <a href="dino/dino.html"><img src="dino/dino.jpg" alt="Screenshot dino"><h2>Dinosaurus</h2></a>
+        </div>
+        <div class="card-back">
+          <div class="card-back-content">Lompat hindari rintangan</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="game-card" data-desc="Game monopoly, mainkan permainan klasik ini dengan temanmu!">
+      <div class="game-card-inner">
+        <div class="card-front">
+          <a href="monopoly/monopoly.html"><img src="monopoly/monopoly.jpg" alt="Screenshot monopoly"><h2>Monopoly</h2></a>
+        </div>
+        <div class="card-back">
+          <div class="card-back-content">Monopoly</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="game-card" data-desc="Game melukis, buat karya seni yang unik!">
+      <div class="game-card-inner">
+        <div class="card-front">
+          <a href="paint/paint.html"><img src="paint/paint.jpg" alt="Screenshot paint"><h2>Melukis</h2></a>
+        </div>
+        <div class="card-back">
+          <div class="card-back-content">Buat karya seni</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="game-card" data-desc="Game ritme, latih koordinasi refleks tangan dengan musik!">
+      <div class="game-card-inner">
+        <div class="card-front">
+          <a href="rhytm/rhy.html"><img src="rhytm/rhy.jpg" alt="Screenshot rhytm"><h2>Ritme</h2></a>
+        </div>
+        <div class="card-back">
+          <div class="card-back-content">Ritme musik</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="game-card" data-desc="Game ludo, mainkan permainan klasik ini dengan temanmu!">
+      <div class="game-card-inner">
+        <div class="card-front">
+          <a href="ludo/ludo.html"><img src="ludo/ludo.jpg" alt="Screenshot ludo"><h2>Ludo</h2></a>
+        </div>
+        <div class="card-back">
+          <div class="card-back-content">Ludo</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="game-card" data-desc="Game ular tangga, mainkan permainan klasik ini dengan temanmu!">
+      <div class="game-card-inner">
+        <div class="card-front">
+          <a href="ut/ut.html"><img src="ut/ut.jpg" alt="Screenshot ular tangga"><h2>Ular Tangga</h2></a>
+        </div>
+        <div class="card-back">
+          <div class="card-back-content">Ular Tangga</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="game-card" data-desc="Game halma, mainkan permainan klasik ini dengan temanmu!">
+      <div class="game-card-inner">
+        <div class="card-front">
+          <a href="halma/halma.html"><img src="halma/halma.jpg" alt="Screenshot halma"><h2>Halma</h2></a>
+        </div>
+        <div class="card-back">
+          <div class="card-back-content">Halma</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="game-card" data-desc="Game suit, mainkan suit melawan bot dengan tampilan yang menarik!">
+      <div class="game-card-inner">
+        <div class="card-front">
+          <a href="suit/suit.html"><img src="suit/suit.jpg" alt="Screenshot suit"><h2>Suit</h2></a>
+        </div>
+        <div class="card-back">
+          <div class="card-back-content">Suit</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="game-card" data-desc="Game blockblast, hancurkan blok dengan strategi!">
+      <div class="game-card-inner">
+        <div class="card-front">
+          <a href="blockblast/bb.html"><img src="blockblast/bb.jpg" alt="Screenshot blockblast"><h2>Block Blast</h2></a>
+        </div>
+        <div class="card-back">
+          <div class="card-back-content">Block Blast</div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Popup Deskripsi -->
+  <div id="popup" class="hidden">
+    <p id="popup-text"></p>
+  </div>
+
+  <!-- Road with Vehicles -->
+  <div class="road-container">
+    <div class="road"></div>
+    <!-- Vehicles akan ditambahkan oleh JavaScript -->
+  </div>
+
+  <!-- Grass/Padang Rumput -->
+  <div class="grass"></div>
+
+  <!-- Footer -->
+  <footer>
+    <p> Created by: Jimny Al Ramadhan Syahnendi X PPLG</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
